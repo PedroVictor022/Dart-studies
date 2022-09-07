@@ -1,2 +1,5 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+# Estudos Dart
+- Modulo 1
+   + Conhecimento sobre tipos INT e DOUBLE
+   + Conteudo parecido com C#
+   
