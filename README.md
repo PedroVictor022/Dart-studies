@@ -10,3 +10,15 @@
       toStringAsFixed(); double to String
    }
 
+- Modulo 2
+   + Trabalhando com Lists
+   + Lists aceitam um tipo de objeto
+   ` Lists<TIPO DE DADO> ... = [];
+   + Tipo dynamic nao e recomendado
+   --- Var - Const e Final ---
+   + Var podem ter o valor alterado | nao necessita de tipo
+   + Const nao pode ser alterado
+
+
+   
+
