@@ -1,4 +1,4 @@
-# Estudos Dart
+# Estudos Dart ( Variáveis, listas e repetições );
 - Modulo 1
    + Conhecimento sobre tipos INT e DOUBLE
    + Tipo String 
