@@ -19,6 +19,9 @@
    + Var podem ter o valor alterado | nao necessita de tipo
    + Const nao pode ser alterado
 
+- Modulo 3
+   lacos de repeticao
 
-   
-
+- Modulo 4 
+   + Lib dart:io;
+   + Methods List

@@ -1,6 +1,7 @@
 void main() {
   
   int idade = 20;
+  // ignore: unused_local_variable
   bool maiorDeIdade;
   String aluno = "Julia Alves";
 
