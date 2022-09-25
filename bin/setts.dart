@@ -1,5 +1,19 @@
 void main() {
   escolherMeioDeTransporte(Transportes.bike);
+  
+  Set<String> destinosVisitados = <String>{};
+  // registrarDestinos("Curitiba");
+  destinosVisitados = registrarDestinos("Rio de Janeiro", destinosVisitados);
+
+  destinosVisitados = registrarDestinos("Balneario", destinosVisitados);
+  destinosVisitados = registrarDestinos("Rio de Janeiro", destinosVisitados);
+
+}
+
+Set<String> registrarDestinos(String destino, Set<String>bancoDeDados) {
+  bancoDeDados.add(destino);
+  print(bancoDeDados);
+  return bancoDeDados;
 }
 
 void escolherMeioDeTransporte(Transportes locomocao) {
@@ -18,5 +32,6 @@ void escolherMeioDeTransporte(Transportes locomocao) {
       break;
   }
 }
+
 
 enum Transportes { carro, motocicleta, bike, onibus }
