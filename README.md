@@ -25,3 +25,9 @@
 - Modulo 4 
    + Lib dart:io;
    + Methods List
+- Modulo 5
+   + Setters, forma de array mais complexo
+   + Dados repetidos, nao sao duplicados
+   + COMO CRIAR UM SETTER
+   Set <TIPO DE DADO> nome_variavel = <TIPO DE DADO>{};
+   

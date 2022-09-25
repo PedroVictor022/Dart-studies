@@ -1,37 +1,17 @@
 void main() {
-  escolherMeioDeTransporte(Transportes.bike);
   
-  Set<String> destinosVisitados = <String>{};
-  // registrarDestinos("Curitiba");
-  destinosVisitados = registrarDestinos("Rio de Janeiro", destinosVisitados);
+  String cliente1 = "Otavio Teixeira"; // Nome do cliente
+  Set<String> listaClientes = <String>{}; // Banco de dados
 
-  destinosVisitados = registrarDestinos("Balneario", destinosVisitados);
-  destinosVisitados = registrarDestinos("Rio de Janeiro", destinosVisitados);
+  listaDeClientes(cliente1, listaClientes);
+  listaDeClientes("Luiza Campos", listaClientes);
+  listaDeClientes("Luiza Campos", listaClientes); // Dados repetidos, nao sao inclusos
+
 
 }
 
-Set<String> registrarDestinos(String destino, Set<String>bancoDeDados) {
-  bancoDeDados.add(destino);
+Set<String> listaDeClientes(String nomeCliente, Set<String> bancoDeDados) {
+  bancoDeDados.add(nomeCliente);
   print(bancoDeDados);
   return bancoDeDados;
 }
-
-void escolherMeioDeTransporte(Transportes locomocao) {
-  switch (locomocao) {
-    case Transportes.carro:
-      print("Vou de carro!");
-      break;
-    case Transportes.motocicleta:
-      print("Vou de motocicleta");
-      break;
-    case Transportes.bike:
-      print("Vou de bike");
-      break;
-    case Transportes.onibus:
-      print("Vou de onibus");
-      break;
-  }
-}
-
-
-enum Transportes { carro, motocicleta, bike, onibus }
